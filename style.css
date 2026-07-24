@@ -79,11 +79,116 @@ a{
 
 .button1 button{
     cursor: pointer;
-    padding: 8px 16px;
     border-radius: 8px;
     background-color: #3882f6;
     border: none;
     color: #ffff;
-    padding: 12px 24px;
+    padding: 8px 36px;
     margin-top: 0;
+    font-weight: 800;
+}
+
+.info{
+    text-align: center;
+}
+
+.info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 30px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card{
+    max-width: 200px;
+}
+
+.text{
+    padding: 0 15px;
+}
+
+.quote{
+    /* text-align: center; */
+    margin: 50px 0;
+    padding: 50px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    max-width: 800px;
+    text-align: left;
+}
+
+.by{
+    font-weight: 800;
+    max-width: 800px;
+    width: 100%;
+    align-self: center;
+    text-align: right;
+}
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px 100px;
+    border-radius: 6px;
+    align-items: center;
+    gap: 80px;
+}
+
+.cta-text{
+    padding: 20px 80px;
+}
+
+.cta-text h3{
+    margin-bottom: 0;
+}
+
+.cta-text p{
+    margin-top: 0;
+}
+
+.cta-text h3, p{
+    color: #ffff;
+}
+
+.button2 button{
+    cursor: pointer;
+    padding: 8px 36px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    border: 2px solid #ffff;
+    color: #ffff;
+    margin-top: 0;
+    font-weight: 800;
+}
+
+.footer{
+    display: flex;
+    height: 72px;
+    background-color: #1f2937;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center;
+    padding: 20px 0; */
 }
